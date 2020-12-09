@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HMDController : MonoBehaviour
+public class HMDControllerByTOKI : MonoBehaviour
 {
     [SerializeField] GameObject baseHMD;
     [SerializeField] float scaleX = 1;
