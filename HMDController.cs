@@ -21,7 +21,7 @@ public class HMDController : MonoBehaviour
     {
         Transform myTransform = this.transform;
         targetPos.x = baseHMD.transform.localPosition.x * (scaleX - 1);
-        targetPos.y = baseHMD.transform.tlocalPosition.y * (scaleY - 1);
+        targetPos.y = baseHMD.transform.localPosition.y * (scaleY - 1);
         targetPos.z = baseHMD.transform.localPosition.z * (scaleZ - 1);
 
         myTransform.localPosition = targetPos;
